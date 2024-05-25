@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+                    background-image: url("image17.jpg");
+                    background-size: width="100px" height="500px";
+                    background-repeat: repeat;
+                    background-attachment: fixed;
+                    color: #ffffff;
+                    background-color: transparent;
+               }
+    </style>
+</head>
+<body>
+    <form method="post"action="cible_formulaire.php">
+        <fieldset>
+        <label for="nom">Entrez votre nom</label><br/>
+            <input type="text" name="nom" id="nom" tabindex="10"/><br/>
+            <label for="prénom">Entrez votre prénom</label><br/>
+            <input type="text" name="prénom" id="nom" tabindex="20"/><br/>
+            <label for="email">Entrez votre email</label><br/>
+            <input type="text" name="email" id="nom" tabindex="30"/><br/>
+            <label for="adresse">Entrez votre adresse</label><br/>
+            <input type="text" name="adresse" id="nom" tabindex="40"/><br/>
+            <label for="profession">Entrez votre profession</label><br/>
+            <input type="text" name="profession" id="nom" tabindex="50"/><br/>
+            <label for="numéro de téléphone">Entrez votre numéro de téléphone</label><br/>
+            <input type="number" name="numéro de téléphone" id="nom" tabindex="60"/><br/>
+            <label for="date de naissance">Entrez votre date de naissance</label><br/>
+            <input type="text" name="date de naissance " id="nom" tabindex="80"/><br/>
+            <p>
+                Êtes-vous ?<br/>
+                <input type="radio" name="sexe" value="masculin" id="masculin" tabindex="90"/><label for="masculin">Un homme</label>
+                <input type="radio" name="sexe" value="feminin" id="feminin" tabindex="100"/><label for="masculin">Une femme</label>           
+            </p>
+            <input type="submit"/><input type="reset"/>
+        </fieldset>
+        </form>
+    
+</body>

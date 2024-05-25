@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<style>
+    table
+{
+border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+border: 1px solid black;
+}
+     .contenu1
+     {
+        background-color: red; 
+     }
+     .contenu2
+     {
+        color:blue;
+        background-color: yellow;
+     }
+    body{
+        font-family: Arial, sans-serif;
+                background-image: url("image14.jpg");
+                background-size: width="100px" height="500px";
+                background-repeat: repeat;
+                background-attachment: fixed;
+                color: #ffffff;
+                background-color: transparent;
+           }
+</style>
+<body>
+    <table>
+        <tr>
+            <td rowspan="4" class="contenu2">A</td>
+        </tr>
+        <tr>
+            <th colspan="2">B</th>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td class="contenu1">F</td>
+        </tr>
+    </table>
+</body>
